@@ -1,0 +1,23 @@
+Collecting neuralintents
+  Using cached neuralintents-0.1.0-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: numpy in c:\users\elija\appdata\local\programs\python\python313\lib\site-packages (from neuralintents) (2.2.4)
+Collecting nltk (from neuralintents)
+  Using cached nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+INFO: pip is looking at multiple versions of neuralintents to determine which version is compatible with other requirements. This could take a while.
+Collecting neuralintents
+  Using cached neuralintents-0.0.4-py3-none-any.whl.metadata (2.6 kB)
+  Using cached neuralintents-0.0.3-py3-none-any.whl.metadata (2.6 kB)
+  Using cached neuralintents-0.0.2-py3-none-any.whl.metadata (712 bytes)
+  Using cached neuralintents-0.0.1-py3-none-any.whl.metadata (712 bytes)
+
+The conflict is caused by:
+    neuralintents 0.1.0 depends on tensorflow
+    neuralintents 0.0.4 depends on tensorflow
+    neuralintents 0.0.3 depends on tensorflow
+    neuralintents 0.0.2 depends on tensorflow
+    neuralintents 0.0.1 depends on tensorflow
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
